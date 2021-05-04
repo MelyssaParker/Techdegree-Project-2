@@ -6,5 +6,80 @@
 
  body {
     font-family: 'Raleway', sans-serif;
+    background-color: #f8f6f6;
+    line-height: 1.5rem
  }
+
+ .wrapper {
+    text-align: center;
+ }
+
+ h1 {
+    font-size: 1.5rem;
+ }
+
+ header, main, footer {
+    padding: 15px;
+ }
+
+ .main-nav ul {
+    list-style: none; 
+    padding-left: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+ }
+
+ .nav li {
+     text-transform: uppercase;
+     font-weight: bold;
+     margin: 0;
+ }
+
+ .nav li a {
+    display: block;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+}
  
+ .portfolio-item img {
+    width: 100%;
+ }
+
+ #intro img {
+    max-width: 200px;
+ }
+
+ #intro p {
+    font-size: 1.1rem;
+    color: #999;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ #portfolio, #contact {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+ }
+
+ .portfolio-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ main {
+     background-color: #fff;
+ }
+
+ footer {
+    padding-bottom: 40px;
+ }
